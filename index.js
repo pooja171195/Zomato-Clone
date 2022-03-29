@@ -21,6 +21,8 @@ app.get("/", (req, res) => {
   res.send("Hello");
 });
 console.log("Noori is here!");
+console.log("Sachin is here!");
+console.log("Agrawal is here!");
 // app.get("/products", (req, res) => {
 //   res.send([
 //     {
