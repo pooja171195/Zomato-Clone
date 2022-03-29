@@ -20,7 +20,7 @@ app.get("*", (req, res) => {
 app.get("/", (req, res) => {
   res.send("Hello");
 });
-
+console.log("OM is here")
 // app.get("/products", (req, res) => {
 //   res.send([
 //     {
