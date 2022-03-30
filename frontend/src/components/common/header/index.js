@@ -29,12 +29,12 @@ const Header = () => {
         </div>
 
         <div className="profile-wrapper">
-          <img
+          {/* <img
             src="https://b.zmtcdn.com/images/user_avatars/mug_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A"
             className="header-profile-image"
             alt="Profile"
-          />
-          <span className="header-username">Pooja Yadav</span>
+          /> */}
+          <span className="header-username">Add restaurant </span>
           <i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
         </div>
       </div>
