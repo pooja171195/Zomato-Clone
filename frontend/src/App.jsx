@@ -1,9 +1,18 @@
 import React from 'react';
-
-import HomePage from './pages/home';
+import Home from './components/Home/Home'
+import Login from './components/common/login/Login';
+import PhoneLogin from './components/common/login/PhoneLogin';
+import SignUp from './components/common/signup/SignUp'
 
 const App = () => {
-  return <HomePage />;
+  
+  return(<div>
+    {/* <Login/> */}
+    {/* <PhoneLogin/> */}
+    <SignUp/>
+  
+  </div>)
+  
 };
 
 export default App;
