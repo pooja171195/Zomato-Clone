@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  /* border: 1px solid red; */
+  direction: col;
+  justify-content: center;
+  margin: 30px 0 30px 0px;
+}
+
+.imageDiv {
+  width: 500px;
+}
+
+.dataDiv {
+  width: 500px;
+  padding: 40px 20px 40px 20px;
+}
+
+.radioButtons {
+  /* border: 1px solid red; */
+  margin: 45px 0px 20px 0px;
+  display: flex;
+  gap: 15px;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  accent-color: #ef4f5f;
+}
+
+.inputs {
+  display: flex;
+  /* border: 1px solid rebeccapurple; */
+  gap: 10px;
+}
+
+.inputDiv {
+  width: 300px;
+  border: 2px solid #ef4f5f;
+  padding: 10px;
+  border-radius: 6px;
+}
+input {
+  border: none;
+}
+
+input[type="tel"] {
+  border-left: 0.3px solid rgb(75, 71, 71);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  padding: 2px;
+  margin: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 150px;
+  border-radius: 6px;
+  background-color: #ef4f5f;
+  color: white;
+  border-color: #ef4f5f;
+}
+
+input[type="submit"]:hover {
+  border-color: #ee3446;
+  background-color: #ee3446;
+  cursor: pointer;
+}
+
+.downloadDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.storeButtons {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
