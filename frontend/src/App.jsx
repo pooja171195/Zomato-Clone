@@ -10,9 +10,9 @@ import Reviews from './components/ProductDetailsPage/Reviews';
 import Photos from './components/ProductDetailsPage/Photos';
 import Menu from './components/ProductDetailsPage/Menu';
 import Home from "./components/Home/Home";
-import Login from "./components/common/login/Login";
-import PhoneLogin from "./components/common/login/PhoneLogin";
-import SignUp from "./components/common/signup/SignUp";
+import {Login} from "./components/common/login/Login";
+import {PhoneSignup} from "./components/common/login/Phonesignup";
+import {Signup} from "./components/common/signup/SignUp";
 import MobilePage from "./components/MobilePage/MobilePage";
 
 const App = () => {
@@ -36,8 +36,8 @@ const App = () => {
       <Route  path={"/menu"} element={<Menu />} />
       <Route  path={"/mobilepage"} element={<MobilePage />} />
       <Route  path={"/login"} element={<Login/>} />
-      <Route  path={"/signup"} element={<SignUp/>} />
-      <Route  path={"/phonelogin"} element={<PhoneLogin/>} />
+      <Route  path={"/signup"} element={<Signup/>} />
+      <Route  path={"/phonelogin"} element={<PhoneSignup/>} />
       
 
     </Routes>
