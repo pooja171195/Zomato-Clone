@@ -1,100 +1,92 @@
+#signinContainer {
+  /* border: 1px solid red; */
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  justify-content: center;
+  /* height: 550px;
+  width: 35%; */
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 10px;
+}
+.signinInputs > input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+.btn input {
+  padding: 10px;
+  margin: 10px;
+  width: 275px;
+  background-color: white;
+  border: gray 0.5px solid;
+}
+
+.btn1 input {
+  padding: 10px;
+  margin: 10px 10px 10px 2px;
+  width: 320px;
+  background-color: white;
+  border: gray 0.5px solid;
+}
+
+.para {
+  padding: 5px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #ef4f5f;
+}
+
+#phoneContainer {
+  /* border: 1px solid red; */
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+  justify-content: center;
+  /* height: 550px;
+  width: 35%; */
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.emailPhoneInputs input[type="tel"] {
+  border-left: 0.3px solid rgb(75, 71, 71);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.emailPhoneInputs input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.phoneInputs > input {
+  padding: 10px;
+  margin: 10px 10px 10px 5px;
+  width: 294px;
+}
+
+.inputDiv {
+  border: 2px solid #ef4f5f;
+  padding: 5px;
+  border-radius: 6px;
+  margin: 5px;
+}
+
 .main {
-    text-align: center;
-    justify-content: center;
-    display: flex; 
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: #e1e3eb;
-  }
-  .sub-main {
-    display: flex;
-    justify-content: center;
-    height: 550px;
-    width: 35%;
-    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
-    padding-top: 30px;
-    border-radius: 10px; 
-    background-color: white;
-  }
-  .imgs {
-      padding-top: 20px;
-      justify-content: center;
-      display: flex;
-    }
-  .container-image {
-    background-color: rgb(223, 221, 221); 
-    border-radius: 150px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 115px;
-    width: 115px;
-  }
-  .profile {
-    height: 100px;
-    width: 100px;
-    border-radius: 130px;
-  } 
-
-  input{
-      width: 350px;
-      height: 50px;
-      border-radius: 10px;
-      /* box-shadow: inset 0px 0px 25px 0px #888; */
-      border: 1px solid black;
-      /* outline: none; */
-      background-color: rgb(255, 255, 255);
-  }
-
-  .email{
-      height: 25px;
-      width: 25px;
-      position: absolute;
-      padding: 1px 0 0 2px;
-  }
-  .continueWithEmail{
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    padding: 7px 0 0 45px;
-  }
-
-  .name{
-      padding-left: 20px;
-      font-size: 20px;
-  }
-  
-  .second-input{
-      padding-top: 20px;
-  }
-
-  button{
-      width: 380px;
-      height: 60px;
-      border-radius: 10px;
-      background-color: #ec2e2ef1;
-      color: white;
-      font-size: 25px;
-      border: 1px solid;
-  }
-  #continueWithEmail{
-     /* width: 380px; */
-     font-size: 20px; 
-     width: 380px;
-     height: 50px;
-     border-radius: 10px;
-     color: black;
-     border: 1px solid black;
-     background-color: white;
- }
-  .login-button{
-      padding-top: 25px;
-  }
-
-  .link{
-      font-size: 25px;
-      font-weight: 400;
-  }
-   a{
-      color: blue;
-   }
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
