@@ -1,7 +1,7 @@
 #signupContainer {
   /* border: 1px solid red; */
   width: 350px;
-  height: 450px;
+  height: 530px;
   padding: 10px;
   /* display: flex; */
   justify-content: center;
@@ -74,4 +74,3 @@ a {
   padding-top: 90px;
   padding-bottom: 90px;
 }
-

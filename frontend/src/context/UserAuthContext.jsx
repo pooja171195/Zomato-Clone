@@ -57,7 +57,7 @@ export const UserAuthContextProvider = ({ children }) => {
 
   return (
     <userAuthContext.Provider
-      value={{ user, logOut, setUpRecaptha, logIn, signUp, googleSignIn }}
+      value={{ logOut, setUpRecaptha, logIn, signUp, googleSignIn }}
     >
       {children}
     </userAuthContext.Provider>
