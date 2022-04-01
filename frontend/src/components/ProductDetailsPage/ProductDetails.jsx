@@ -121,7 +121,7 @@ const ProductDetails = () => {
             </div>
             <div className="ssffbuttons">
            <div><button className="btn btn-danger">Add Review</button></div>
-           <div><button className="btn btn-outline-secondary" >Direction</button></div>
+           <div><button className="btn_sec_1" >Direction</button></div>
            <div><button className="btn btn-outline-secondary">Bookmark</button></div>
            <div><button className="btn btn-outline-secondary">Share</button></div>
             </div>
