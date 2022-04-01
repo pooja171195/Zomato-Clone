@@ -1,0 +1,170 @@
+.box{
+    /* border:1px dashed black; */
+}
+.container{
+    width:90%;
+    margin: auto;
+    margin-left: 200px;
+}
+.img_container{
+    display:flex;
+    width:80%;
+    height:416px;
+}
+.img1{
+    width:60%;
+    height:100%;
+}
+.img2{
+    width:40%;
+    height:100%;
+
+}
+.img_div1{
+    height:49%;
+    display:flex;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.img_div2{
+    height:49%;
+    margin-top: 1%;
+    display:flex;
+    margin-left: 1%;
+}
+.container1,.container2{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 1%;
+    opacity: 0.5;
+    
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .size{
+    font-size:50px;
+  }
+  .hover{
+      color: grey;
+  }
+  .hover:hover{
+      color: black;
+  }
+  .buttons{
+      display:flex;
+    
+  }
+  .buttons button{
+      margin-right: 10px;
+  }
+  .links{
+      display:flex;
+  }
+  .links div{
+      margin-right: 35px;
+  }
+  .cusines{
+      display:flex;
+  }
+  .cusines div{
+      margin-right: 25px;
+      border:1px solid lightgray;
+      padding-right:20px;
+      padding-left:20px;
+      padding: 5px;
+     white-space:nowrap;
+     border-radius: 20px;
+  }
+.margin{
+    margin-top:30px;
+
+}
+.color{
+    color:green;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.info div{
+    margin-right: 20px;
+}
+.leftbox{
+    width:15%
+}
+.rightbox{
+    width:70%;
+    border-left: 2px solid lightgray;
+}
+.orderdisplay{
+    display:flex;
+}
+.right_oder{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.dish_div{
+    display:flex;
+    overflow: hidden;
+    width: 750px;
+    height:140px;
+    margin-bottom: 20px;
+}
+.dish_img_div{
+    border-radius:10px;
+    width:500px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.div_margin{
+    margin-left:20px;
+}
+.flex{
+    display: flex;
+}
+.d_margin{
+    gap: 20px;
+}
+.photos_div{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+.photos_div div{
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+.menu_div_1{
+    margin-top:70px;
+}
+.menu_div_2{
+    margin-top:30px;
+}
+.left_review{
+
+}
+.select_div{
+    display: flex;
+    justify-content: space-between;
+}
+.button_size{
+   /* width:40px;
+   height:40px; */
+    /* overflow: hidden; */
+    
+
+}
+.margin_share div{
+    margin-right:20px;
+}
