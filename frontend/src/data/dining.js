@@ -1,6 +1,6 @@
 export const dining = [
     {
-    "id":1,
+     id:1,
    "name":"Empire Restaurant",
     "img":"https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp",
    "category":[ "North Indian", "Biryani", "kebab", "Chinese",  "Beverages"],
@@ -92,7 +92,7 @@ export const dining = [
     
     },
     {
-        "id":2,
+         id:2,
         "name":"Anjappar",
          "img":"https://b.zmtcdn.com/data/pictures/chains/5/50045/05db4edf81caa2fc3b6d6a6f4f098fc3_o2_featured_v2.jpg",
         "category":["Chettinad", "Biryani","Seafood", "Desserts", "Beverages"],
@@ -184,7 +184,7 @@ export const dining = [
  
     },
     {
-        "id":3,
+         id:3,
    "name":"Theobroma",
     "img":"https://b.zmtcdn.com/data/pictures/5/19894885/92d3d902b8eadf56d866ecb196501830_o2_featured_v2.jpg?output-format=webp",
    "category":["Mithai", "North Indian", "Pizza", "Burger", "Fast Food","Beverages"],
@@ -274,7 +274,7 @@ export const dining = [
 
     },
     {
-        "id":4,
+         id:4,
    "name":"Domino's Pizza",
     "img":"https://b.zmtcdn.com/data/pictures/chains/2/50382/6fa52a1c7dad34faa24f1bae4e7159de_o2_featured_v2.jpg",
    "category":["Pizza", "Fast Food", "Desserts"],
@@ -365,7 +365,7 @@ export const dining = [
     },
     {
         
-        "id":5,
+         id:5,
    "name":"Burger King",
     "img":"https://b.zmtcdn.com/data/pictures/chains/5/61555/9f2f843523d0e8b9ecd9ee9ee32c1c46_o2_featured_v2.jpg?output-format=webp",
    "category":["Pizza", "Fast Food", "Desserts"],
@@ -458,7 +458,7 @@ export const dining = [
     },
     {
         
-        "id":6,
+         id:6,
    "name":"Arab Restaurant",
     "img":"https://b.zmtcdn.com/data/pictures/1/19011841/6fd2757b06ea2724890a235205e91c9c_o2_featured_v2.jpg",
    "category":["Biryani", "Mughlai", "North Indian", "Chinese", "Kebab"],
@@ -550,7 +550,7 @@ export const dining = [
     },
     {
         
-        "id":7,
+         id:7,
    "name":"Burger King",
     "img":"https://b.zmtcdn.com/data/pictures/chains/5/61555/9f2f843523d0e8b9ecd9ee9ee32c1c46_o2_featured_v2.jpg?output-format=webp",
    "category":["Pizza", "Fast Food", "Desserts"],
@@ -642,7 +642,7 @@ export const dining = [
 
     },
     {
-        "id":8,
+         id:8,
    "name":"Domino's Pizza",
     "img":"https://b.zmtcdn.com/data/pictures/chains/2/50382/6fa52a1c7dad34faa24f1bae4e7159de_o2_featured_v2.jpg",
    "category":["Pizza", "Fast Food", "Desserts"],
@@ -733,7 +733,7 @@ export const dining = [
     },
     {
         
-        "id":9,
+         id:9,
    "name":"Arya Bhavan",
     "img":"https://b.zmtcdn.com/data/pictures/chains/0/39150/70871f7248e4d9eff0f5f9c87159eb6c_o2_featured_v2.jpg",
    "category":["Chinese", "Mughlai", "Sandwich", "Desserts"],
@@ -826,7 +826,7 @@ export const dining = [
     },
     {
         
-        "id":10,
+         id:10,
    "name":"Hotel Sagar",
     "img":"https://b.zmtcdn.com/data/pictures/3/36273/b7180497024beea659764a60bd27dbbc_o2_featured_v2.jpg",
    "category":[ "Chinese", "Biryani"],
@@ -917,7 +917,7 @@ export const dining = [
 
     },
     {
-        "id":11,
+         id:11,
        "name":"Theobroma",
         "img":"https://b.zmtcdn.com/data/pictures/5/19894885/92d3d902b8eadf56d866ecb196501830_o2_featured_v2.jpg",
        "category":["Desserts", "Bakery", "Beverages", "Fast Food", "Sandwich"],
@@ -1006,7 +1006,7 @@ export const dining = [
         
         },
         {
-            "id":12,
+             id:12,
            "name":"Madras Meal Company",
             "img":"https://b.zmtcdn.com/data/pictures/chains/7/19575357/15411a74b31b7c3d145c1980099d4cac_o2_featured_v2.jpg",
            "category":["South Indian"],
@@ -1095,7 +1095,7 @@ export const dining = [
              }
     },
     {
-        "id":13,
+         id:13,
        "name":"Smoor",
         "img":"https://b.zmtcdn.com/data/pictures/chains/1/52971/8f623127694c2c2b9dcd072819dc778d_o2_featured_v2.jpg",
        "category":["Desserts", "Bakery"],
@@ -1190,7 +1190,7 @@ export const dining = [
         
         },
         {
-            "id":14,
+             id:14,
            "name":"Taco Bell",
             "img":"https://b.zmtcdn.com/data/pictures/chains/8/51828/6fb248b02367d16d8f608d7a6edc4550_o2_featured_v2.jpg",
            "category":["Mexican","Fast Food","Beverages"],
@@ -1283,7 +1283,7 @@ export const dining = [
             
             },
             {
-                "id":15,
+                 id:15,
                "name":"Starbucks Coffee",
                 "img":"https://b.zmtcdn.com/data/pictures/chains/3/56603/29de48d7f2dcff234167b0849fb12532_o2_featured_v2.jpg",
                "category":["Beverages","Coffee", "Desserts"],
@@ -1376,7 +1376,7 @@ export const dining = [
                 
                 },
                 {
-                    "id":16,
+                     id:16,
                    "name":"Subway",
                     "img":"https://b.zmtcdn.com/data/pictures/chains/4/35004/9c9c5614ae656da63c55327768e32850_o2_featured_v2.jpg?output-format=webp",
                    "category":["Healthy Food", "Fast Food","Sandwich", "Salad", "Wraps", "Beverages"],
@@ -1469,7 +1469,7 @@ export const dining = [
                     
                     },
                     {
-                        "id":17,
+                         id:17,
                        "name":"The J",
                         "img":"https://b.zmtcdn.com/data/pictures/chains/1/43281/110be65b98044281f59e40eca2200abf_o2_featured_v2.jpg",
                        "category":["Fast Food", "Beverages", "Shake", "Burger"],
@@ -1562,7 +1562,7 @@ export const dining = [
                         
                         },
                         {
-                            "id":18,
+                             id:18,
                            "name":"Smokin' Joe's",
                             "img":"https://b.zmtcdn.com/data/pictures/chains/8/43778/8f130249d72ec9d030a0c4ab50c11c5d_o2_featured_v2.jpg",
                            "category":["Pizza", "Fast Food", "Italian", "Beverages"],
@@ -1655,7 +1655,7 @@ export const dining = [
                             
                             },
                             {
-                                "id":19,
+                                 id:19,
                                "name":"The Roll Company - TRC",
                                 "img":"https://b.zmtcdn.com/data/pictures/5/18544135/f2e5a4ab1ddc583d55630f46610cfc9b_o2_featured_v2.jpg",
                                "category":["Rolls", "North Indian"],
@@ -1748,7 +1748,7 @@ export const dining = [
                                 
                                 },
                                 {
-                                    "id":20,
+                                     id:20,
                                    "name":"WOW! Momo",
                                     "img":"https://b.zmtcdn.com/data/pictures/chains/8/18577178/cc7cfcafbaa312b8e003ab60181246b0_o2_featured_v2.jpg",
                                    "category":["Momos", "Fast Food"],
@@ -1842,7 +1842,7 @@ export const dining = [
                                     },
     {
         
-        "id":21,
+         id:21,
    "name":"Indus Flavour Express",
     "img":"https://b.zmtcdn.com/data/pictures/9/18589669/9e8f678a699cc2f369f275141f2d6b5f_o2_featured_v2.jpg?output-format=webp",
    "category":[ "North Indian"],
@@ -1934,7 +1934,7 @@ export const dining = [
     },
     {
         
-        "id":22,
+         id:22,
    "name":" Bikanervala",
     "img":"https://b.zmtcdn.com/data/pictures/chains/1/491/fba01c7a0a33fe1d4b2a48ad364e55ec_o2_featured_v2.jpg",
    "category":["Mithai", "Desserts", "Shake", "Beverages"],
@@ -2026,7 +2026,7 @@ export const dining = [
     },
     {
         
-        "id":23,
+         id:23,
         "name":"Domino's Pizza",
          "img":"https://b.zmtcdn.com/data/pictures/chains/2/50382/6fa52a1c7dad34faa24f1bae4e7159de_o2_featured_v2.jpg",
         "category":["Pizza", "Fast Food", "Desserts"],

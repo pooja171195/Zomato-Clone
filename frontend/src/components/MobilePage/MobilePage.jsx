@@ -3,6 +3,7 @@ import PhoneInput from "react-phone-number-input";
 import { useState } from "react";
 import "./MobilePage.css";
 
+
 export default function MobilePage() {
   const [isEmail, setEmailFlag] = useState(true);
   const [isPhone, setPhoneFlag] = useState(false);

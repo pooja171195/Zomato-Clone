@@ -28,7 +28,7 @@ const ExploreCard = ({ restaurant, i }) => {
         <img
           src={coverImg}
           className="explore-card-image"
-          alt={restaurant.info.name}
+          alt=""
         />
         <div className="delivery-time">{deliveryTime}</div>
         {proOff && <div className="pro-off">{proOff}</div>}
