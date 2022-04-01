@@ -10,9 +10,11 @@ import Reviews from "./components/ProductDetailsPage/Reviews";
 import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
 import Home from "./components/Home/Home";
+
 import { Login } from "./components/common/Login/Login";
 import { PhoneSignup } from "./components/common/Login/Phonesignup";
-import { Signup } from "./components/common/Signup/Signup";
+import { Signup } from "./components/common/Signup/SignUp";
+
 import MobilePage from "./components/MobilePage/MobilePage";
 
 const App = () => {
