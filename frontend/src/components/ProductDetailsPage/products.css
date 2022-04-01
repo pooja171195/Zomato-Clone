@@ -1,38 +1,38 @@
 .box{
     /* border:1px dashed black; */
 }
-.container{
+.ssffcontainer{
     width:90%;
     margin: auto;
     margin-left: 200px;
 }
-.img_container{
+.ssffimg_container{
     display:flex;
     width:80%;
     height:416px;
 }
-.img1{
+.ssffimg1{
     width:60%;
     height:100%;
 }
-.img2{
+.ssffimg2{
     width:40%;
     height:100%;
 
 }
-.img_div1{
+.ssffimg_div1{
     height:49%;
     display:flex;
     margin-bottom: 1%;
     margin-left: 1%;
 }
-.img_div2{
+.ssffimg_div2{
     height:49%;
     margin-top: 1%;
     display:flex;
     margin-left: 1%;
 }
-.container1,.container2{
+.ssffcontainer1,.ssffcontainer2{
     position: relative;
     text-align: center;
     color: white;
@@ -42,38 +42,38 @@
     
 
 }
-.centered {
+.ssffcentered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .size{
+  .ssffsize{
     font-size:50px;
   }
-  .hover{
+  .ssffhover{
       color: grey;
   }
-  .hover:hover{
+  .ssffhover:hover{
       color: black;
   }
-  .buttons{
+  .ssffbuttons{
       display:flex;
     
   }
-  .buttons button{
+  .ssffbuttons button{
       margin-right: 10px;
   }
-  .links{
+  .ssfflinks{
       display:flex;
   }
-  .links div{
+  .ssfflinks div{
       margin-right: 35px;
   }
-  .cusines{
+  .ssffcusines{
       display:flex;
   }
-  .cusines div{
+  .ssffcusines div{
       margin-right: 25px;
       border:1px solid lightgray;
       padding-right:20px;
@@ -82,89 +82,89 @@
      white-space:nowrap;
      border-radius: 20px;
   }
-.margin{
+.ssffmargin{
     margin-top:30px;
 
 }
-.color{
+.ssffcolor{
     color:green;
 }
-.info{
+.ssffinfo{
     display: flex;
     flex-wrap: wrap;
     width: 500px;
 }
-.info div{
+.ssffinfo div{
     margin-right: 20px;
 }
-.leftbox{
+.ssffleftbox{
     width:15%
 }
-.rightbox{
+.ssffrightbox{
     width:70%;
     border-left: 2px solid lightgray;
 }
-.orderdisplay{
+.ssfforderdisplay{
     display:flex;
 }
-.right_oder{
+.ssffright_oder{
     display:flex;
     justify-content: space-between;
     
 }
-.dish_div{
+.ssffdish_div{
     display:flex;
     overflow: hidden;
     width: 750px;
     height:140px;
     margin-bottom: 20px;
 }
-.dish_img_div{
+.ssffdish_img_div{
     border-radius:10px;
     width:500px;
     overflow: hidden;
     margin-right: 15px;
 }
-.div_margin{
+.ssffdiv_margin{
     margin-left:20px;
 }
-.flex{
+.ssffflex{
     display: flex;
 }
-.d_margin{
+.ssffd_margin{
     gap: 20px;
 }
-.photos_div{
+.ssffphotos_div{
     display: grid;
     grid-template-columns: repeat(4,200px);
     margin-top: 40px;
     grid-gap: 10px;
 }
-.photos_div div{
+.ssffphotos_div div{
 
     border-radius: 10px;
     overflow: hidden;
 }
-.menu_div_1{
+.ssffmenu_div_1{
     margin-top:70px;
 }
-.menu_div_2{
+.ssffmenu_div_2{
     margin-top:30px;
 }
-.left_review{
+.ssffleft_review{
 
 }
-.select_div{
+.ssffselect_div{
     display: flex;
     justify-content: space-between;
 }
-.button_size{
+.ssffbutton_size{
    /* width:40px;
    height:40px; */
     /* overflow: hidden; */
     
 
 }
-.margin_share div{
+.ssffmargin_share div{
     margin-right:20px;
 }

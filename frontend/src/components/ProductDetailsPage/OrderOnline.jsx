@@ -88,18 +88,18 @@ const OrderOnline = () => {
     <div>
         <ProductDetails />
 
-        <div className="container">
+        <div className="ssffcontainer">
    <hr  />
-<div className="orderdisplay">
-<div className="leftbox box">
+<div className="ssfforderdisplay">
+<div className="ssffleftbox box">
     {obj.category.map((e)=>(
         <div style={{color:"dimgray",marginTop:"10px"}}>{e} {"("}{Math.round(Math.random()*(50-10)+10)}{")"}</div>
     ))}
 </div>
-   <div className="rightbox box">
-       <div className="div_margin"> 
+   <div className="ssffrightbox box">
+       <div className="ssffdiv_margin"> 
            
-       <div className="right_oder">
+       <div className="ssffright_oder">
            <div>
                <h1>Order Online</h1>
                <p><span className="iconify" data-icon="prime:compass"></span>Live tracking not available |<span className="iconify" data-icon="prime:compass"></span> 30 min</p>
@@ -112,9 +112,9 @@ const OrderOnline = () => {
    <h1>Recommended</h1>
    {obj.dish.map((e)=>(
 
-       <div className="dish_div">
+       <div className="ssffdish_div">
 
-           <div className="dish_img_div">
+           <div className="ssffdish_img_div">
                <img  src={e.img}  />
            </div>
            <div>

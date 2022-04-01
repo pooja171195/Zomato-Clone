@@ -124,13 +124,13 @@ const Reviews = () => {
     <div>
           <ProductDetails />
           
-        <div className="container flex box">
-   <div className="left_review">
+        <div className="ssffcontainer ssffflex box">
+   <div className="ssffleft_review">
      <h1>{obj.name} Reviews</h1>
    
-   <div className="select_div">
+   <div className="ssffselect_div">
        <div style={{marginRight:"200px"}}>
-       <select class="form-select" aria-label="Default select example">
+       <select className="form-select" aria-label="Default select example">
   <option selected>All Reviews</option>
   
   <option value="2">Following</option>
@@ -151,13 +151,13 @@ const Reviews = () => {
    </div>
     {obj.reviews.map((e)=>(
   <div style={{marginTop:"20px"}}>
-  <div className="flex">
+  <div className="ssffflex">
       <div>
           <img src="https://robohash.org/maioresipsaminventore.png?size=50x50&set=set1" />
       </div>
       <div>
           <h5>{e.name}</h5>
-          <div className="flex">
+          <div className="ssffflex">
               <div style={{marginRight:"20px"}}>
                   <p>{e.reviews} reviews</p>
               </div>
@@ -170,7 +170,7 @@ const Reviews = () => {
   </div>
  
 
-  <div className="flex">
+  <div className="ssffflex">
               <div className="button_size" style={{marginRight:"20px"}}>
                   <button  className="bbtn btn-success">{e.rating}<span class="iconify" data-icon="carbon:star"></span></button>
               </div>
@@ -180,7 +180,7 @@ const Reviews = () => {
           </div>
 
           <p>0 Votes for helpful, 0 Comments</p>
-          <div className="flex margin_share">
+          <div className="ssffflex ssffmargin_share">
               <div><span class="iconify" data-icon="ant-design:like-outlined"></span>Helpful</div>
               <div><span class="iconify" data-icon="ic:outline-comment"></span>Comment</div>
               <div><span class="iconify" data-icon="cil:share"></span>Share</div>

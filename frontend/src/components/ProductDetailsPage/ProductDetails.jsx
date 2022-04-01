@@ -62,40 +62,37 @@ const ProductDetails = () => {
               searches:"eatfit menu, eatfit cunningham road menu, eatfit bangalore, eatfit bangalore menu, eatfit restaurant",
               topstores:"Hosur Road, BTM, Hennur, Rajajinagar, Koramangala 4th Block, Electronic City, Banaswadi, Yelahanka"
          }
-    
-    
-        
         }
 
      
 
   return (
-    <div className="container">
+    <div className="ssffcontainer">
 
-        <div className="img_container box" >
- <div className="img1">
+        <div className="ssffimg_container box" >
+ <div className="ssffimg1">
      <img style={{height:"100%",width:"100%" }}  src={obj.img1} />
  </div>
 
- <div className="img2">
- <div className="img_div1 box">
+ <div className="ssffimg2">
+ <div className="ssffimg_div1 box">
      <div >
          <img style={{height:"100%",width:"100%" }}  src={obj.img2}   />
      </div>
-     <div className="container1">
+     <div className="ssffcontainer1">
      <img src={obj.img1} style={{height:"100%",width:"100%"}}  />
-     <div className="centered">View Gallery</div>
+     <div className="ssffcentered">View Gallery</div>
          </div>  
  </div>
- <div className="img_div2 box">
+ <div className="ssffimg_div2 box">
      <div >
      <img style={{height:"100%",width:"100%" }}  src={obj.img3}   />
      
      </div>
-     <div className="container2">
+     <div className="ssffcontainer2">
      <img src={obj.img1} style={{height:"100%",width:"100%"}}  />
-     <div className="centered">
-     <span className="iconify size" data-icon="fluent:camera-add-24-regular"></span><br />
+     <div className="ssffcentered">
+     <span className="iconify ssffsize" data-icon="fluent:camera-add-24-regular"></span><br />
          Add Photos</div>
          
          </div>  
@@ -111,7 +108,7 @@ const ProductDetails = () => {
                     <h1>{obj.name}</h1>
            </div>
            
-            <div className="hover">
+            <div className="ssffhover">
                 {obj.category.map((e,i)=>(
                    <span key={i}>{e}, </span> 
                 ))}
@@ -122,7 +119,7 @@ const ProductDetails = () => {
             <div>
                 <p>Open now10am – 12midnight (Today)</p>
             </div>
-            <div className="buttons">
+            <div className="ssffbuttons">
            <div><button className="btn btn-danger">Add Review</button></div>
            <div><button className="btn btn-outline-secondary" >Direction</button></div>
            <div><button className="btn btn-outline-secondary">Bookmark</button></div>
@@ -132,8 +129,8 @@ const ProductDetails = () => {
 
         </div>
 
-        <div className="detailContainer"> 
-        <div className="links">
+        <div className="ssffdetailContainer"> 
+        <div className="ssfflinks">
        <div>
         <Link style={{textDecoration: 'none', fontSize:"25px",color:"grey"}} to="/overview">Overview</Link>
        </div>
