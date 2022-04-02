@@ -1,0 +1,29 @@
+.box{
+
+    border:1px solid red;
+}
+.flex{
+    display:flex;
+}
+.ssfgg23_div{
+width:310px;
+height:200px;
+margin-left:150px;
+border-radius:10px;
+display:flex;
+padding:3px 5px 0px  10px;
+background-color:black;
+
+}
+.sssffgg_inner_div1{
+    width:60%;
+    margin-top: 20px;
+    color:white;
+
+}
+.sssffgg_inner_div2{
+
+    height:100%;
+    width:40%;
+  
+}

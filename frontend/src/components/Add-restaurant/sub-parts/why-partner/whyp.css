@@ -1,0 +1,97 @@
+.whyp{
+
+    /* background-color: red; */
+    height: 510px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.whyp-wrapper{
+    /* background-color: blue; */
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyp-t{
+
+    /* background-color: yellow; */
+    text-align: center;
+    width:90%;
+    margin-top:10px;
+
+}
+
+.whyp-t>h1{
+    font-weight: 500;
+    font-size:35px;
+    color: rgb(54, 54, 54);
+    padding-bottom: 15px;
+}
+
+.whyp-t>p{
+    font-size:20px;
+    padding:10px;
+    color: gray;
+    
+}
+
+.whyp-b{
+    /* background-color: grey; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.whyp-b-i{
+    height: 100px;
+    width: 300px;
+    /* background-color: coral; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.whyp-b-icon{
+
+    /* background-color: red; */
+    width: 32px;
+    height:32px;
+    margin-right: 35px;
+    
+
+}
+
+.whyp-b-icon>img{
+    height: 32px;
+    width: 32px;
+}
+
+.why-b-crd{
+
+    /* background-color: yellow; */
+    text-align: left;
+
+}
+
+
+.why-b-crd>h3{
+
+    font-size: 25px;
+    color: #2770EF;
+    font-weight: 400;
+
+}
+
+.why-b-crd>p{
+    font-size: 18px;
+    color: gray;
+}
