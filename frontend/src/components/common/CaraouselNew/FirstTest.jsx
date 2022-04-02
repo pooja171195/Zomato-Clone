@@ -6,7 +6,7 @@ import "./styles.css";
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 5 },
+  { width: 768, itemsToShow: 6 },
   { width: 1200, itemsToShow: 4 },
 ];
 export default function First() {
