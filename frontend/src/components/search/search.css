@@ -1,0 +1,29 @@
+.div1{
+height: 50px;
+margin-top: 45px;
+border: 1px solid white;
+background-color: white;
+width: 785px;
+margin-left: 18%;
+border-radius: 10px;
+position: absolute;
+display: flex;
+
+}
+.search-bar1{
+    height: 50px;
+    width: 445px;
+    border: none;
+  
+}
+.option1{
+   
+    height: 50px;
+    border: none;
+    width: 300px;
+    margin-left: 5px;
+   
+}
+.div1>hr{
+    color: 1px solid rgb(63, 62, 62);
+}
