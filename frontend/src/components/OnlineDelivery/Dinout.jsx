@@ -7,7 +7,7 @@ import { Zfooter } from "../zfooter/zfooter";
 import { useNavigate } from "react-router-dom";
 // import { Navigate } from "react-router-dom";
 
-export const OnlineDelivery = () => {
+export const Dinout = () => {
   const navigate = useNavigate();
   const [data, setData] = useState([]);
 
@@ -30,11 +30,9 @@ export const OnlineDelivery = () => {
 
   return (
     <>
-      <First />
-      <Second />
-      <h1 style={{ textAlign: "center" }}>
-        Order food online in Chetana Colony, Vidya Nagar, Hubli
-      </h1>
+      {/* <First />
+      <Second /> */}
+      <h1 style={{ textAlign: "center" }}>Dine-Out Restaurants in Bengaluru</h1>
       <div id="dataContainer">
         {data.map((el) => (
           <div

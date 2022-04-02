@@ -11,21 +11,22 @@ import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
 import Home from "./components/Home/Home";
 
-
-import { PhoneSignup } from "./components/common/login/Phonesignup";
-
+import { PhoneSignup } from "./components/common/Login/Phonesignup";
 
 // import Navbar from "./components/Navbar/index";
-import { Login } from "./components/common/login/Login";
+import { Login } from "./components/common/Login/Login";
 
-import { Signup } from "./components/common/signup/SignUp";
+import { Signup } from "./components/common/Signup/SignUp";
 
 import MobilePage from "./components/MobilePage/MobilePage";
 import { OnlineDelivery } from "./components/OnlineDelivery/OnlineDelivery";
 import { Landing } from "./pages/Home/landing";
 
 import { Addrestaurant } from "./components/Add-restaurant/add-restraunt";
+import { OnlinePage } from "./components/OnlineDelivery/OnlinePage";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
+import { Dinout } from "./components/OnlineDelivery/Dinout";
+import { Nightlife } from "./components/OnlineDelivery/Nightlife";
 
 
 const App = () => {
@@ -44,6 +45,9 @@ const App = () => {
         <Route path={"/signup"} element={<Signup />} />
         <Route path={"/phonesignup"} element={<PhoneSignup />} />
         <Route path={"/addrestaurant"} element={<Addrestaurant />} />
+        <Route path="/OnlinePage" element={<OnlinePage />} />
+        <Route path="/dinout" element={<Dinout />} />
+        <Route path="/nightlife" element={<Nightlife />} />
         <Route path={"*"} element={<PageNotFound />} />
        
       </Routes>
