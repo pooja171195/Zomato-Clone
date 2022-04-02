@@ -1,45 +1,89 @@
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useUserAuth } from "../../../context/UserAuthContext";
 
-import './SignUp.css'
-// import profile from "./../image/a.png";
-// import email from "./../image/email.jpg";
-// import pass from "./../image/pass.png";
+import "./SignUp.css";
 
 
-function SignUp() {
+export const Signup = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const { signUp, googleSignIn } = useUserAuth();
+  let navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await signUp(email, password);
+      navigate("/login");
+    } catch (err) {
+      alert("please enter correct email or password");
+    }
+  };
+
+  const handleGoogleSignIn = async (e) => {
+    e.preventDefault();
+    try {
+      await googleSignIn();
+      navigate("/home");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+
   return (
-    <div className="main1">
-     <div className="sub-main1">
-       <div>
-            <div>
-           <h1>SignUp Page</h1>
-           <div>
-             {/* <img src={"https://github.com/AkajithAk/ReactjsDemoYoutube/blob/main/src/image/email.jpg?raw=true"} alt="email" className="email"/> */}
-             <input type="text" placeholder="email" className="name"/>
-           </div>
-           <div className="second-input">
-             {/* <img src={"https://github.com/AkajithAk/ReactjsDemoYoutube/blob/main/src/image/pass.png?raw=true"} alt="pass" className="email"/> */}
-             <input type="password" placeholder="password" className="name"/>
-           </div>
-           <div>     
-        <input type="checkbox" id="policyCheck"   /> <span> I agree to<a className='policy' href='https://www.zomato.com/policies/privacy/'> Zomato's Terms of Service and Privacy Policy.</a>
-        </span></div> 
-          <div className="login-button">
-          <button >Create Account</button>
-           
-           <div className="second-input">
-             <img className="continueWithEmail" src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdSoJivulJRpTLNIXfEl-e4Yqts-6Q1L21w9VJfSXM_LePNuoS0H3KzFVua7johhwBr0&usqp=CAU"} alt="pass" />
-           <button id='continueWithEmail'>Continue with Google</button>
-           </div>
+    <>
+      <div className="main">
+        <div id="signupContainer">
+          <h1>Sign up</h1>
+          <form className="signupInputs" onSubmit={handleSubmit}>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <div className="signupCheckInputs">
+              <div id="signupCheck">
+                <input className="checkbox" type="checkbox" id="policy" />
+              </div>
+              <div id="signupLable">
+                <label id="lable" htmlFor="policy">
+                  I agree to Zomato's Terms of Service, Privacy Policy and
+                  Content Policies
+                </label>
+              </div>
+            </div>
+            <div className="btn">
+              <input type="submit" value="Create Acount" />
+            </div>
+          </form>
+          <div id="line">
+            <hr />
+            or
+            <hr />
           </div>
-           
-            
-         </div>
-       </div>
-       
-
-     </div>
-    </div>
+          <div className="btn">
+            <input
+              type="submit"
+              value=" Continue with Google"
+              onClick={handleGoogleSignIn}
+            />
+          </div>
+          <div className="para">
+            <p>
+              Already have an account? <Link to="/login">Log In</Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
   );
-}
-
-export default SignUp;
+};

@@ -1,0 +1,157 @@
+.poD1{
+  display: grid;
+ 
+}
+.poojaD{
+  display: inline-flex;
+  margin-left: 6%;
+  position: relative;
+}
+.container {
+  border: 1px solid rgb(235, 233, 233);
+  width: 250px;
+  height: 220px;
+  margin-top: 40px;
+  margin-left: 2%;
+  display: grid;
+border-radius: 20px;
+cursor: pointer;
+transition: all .2s ease-in-out; 
+
+  
+}
+.container:hover{
+  
+  transform: scale(1.1); 
+ 
+}
+.icon1{
+   height: 170px;
+   width: 250px;
+   border-top-left-radius:20px ;
+   border-top-right-radius:20px ;
+  
+  }
+
+.tag {
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 0px;
+ color: rgb(62, 61, 61);
+  padding: 5px;
+  width: 240px;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+.poD2{
+   height: 600px;
+   border: 1 px solid red;
+   display: flex;
+   margin-top: -100px;
+}
+.poD2>span{
+   margin-top: 140px;
+   margin-left: 8%;
+   font-size: xx-large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+  
+}
+.poD2>p{
+  margin-top: 200px;
+  margin-left: -160px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: normal;
+  color: rgb(96, 95, 95);
+}
+.poD2>div{
+   color: rgb(234, 117, 117);
+   margin-top: 200px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 85px;
+}
+.mi{
+display: inline;
+margin-left: 7%;
+
+cursor: pointer;
+
+
+}
+.mi-container{
+  display: inline-block;
+margin-left: 10px;
+margin-top: -650px;
+background-color: black;
+width: 260px;
+height: 370px;
+border-radius: 10px;
+}
+.mi-t{
+
+margin-left: 12%;
+color: rgb(231, 219, 219);
+font-weight: bold;
+margin-top: -60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mi-tt{
+
+  margin-left: 12%;
+  color: white;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+.icon11{
+  display: inline-block;
+width: 260px;
+height: 370px;
+opacity: 0.5;
+filter: alpha(opacity=100);
+
+border-radius: 10px;
+}
+.pLocation{
+ 
+  margin-left: 7%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.BSS{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(82, 81, 81);
+}
+.Lol{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  padding: 10px;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 50px;
+  align-items: center;
+}
+.LolD{
+  height: 60px;
+  width: 350px;
+  border: 1px solid rgb(207, 207, 207);
+  text-align: center;
+  border-radius: 7px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+ 
+
+}
+.LolD:hover{
+  box-shadow: 5px 5px 5px rgb(183, 182, 182);
+}

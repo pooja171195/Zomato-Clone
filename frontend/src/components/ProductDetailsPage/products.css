@@ -1,0 +1,170 @@
+.box{
+    /* border:1px dashed black; */
+}
+.ssffcontainer{
+    width:90%;
+    margin: auto;
+    margin-left: 200px;
+}
+.ssffimg_container{
+    display:flex;
+    width:80%;
+    height:416px;
+}
+.ssffimg1{
+    width:60%;
+    height:100%;
+}
+.ssffimg2{
+    width:40%;
+    height:100%;
+
+}
+.ssffimg_div1{
+    height:49%;
+    display:flex;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.ssffimg_div2{
+    height:49%;
+    margin-top: 1%;
+    display:flex;
+    margin-left: 1%;
+}
+.ssffcontainer1,.ssffcontainer2{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 1%;
+    opacity: 0.5;
+    
+
+}
+.ssffcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ssffsize{
+    font-size:50px;
+  }
+  .ssffhover{
+      color: grey;
+  }
+  .ssffhover:hover{
+      color: black;
+  }
+  .ssffbuttons{
+      display:flex;
+    
+  }
+  .ssffbuttons button{
+      margin-right: 10px;
+  }
+  .ssfflinks{
+      display:flex;
+  }
+  .ssfflinks div{
+      margin-right: 35px;
+  }
+  .ssffcusines{
+      display:flex;
+  }
+  .ssffcusines div{
+      margin-right: 25px;
+      border:1px solid lightgray;
+      padding-right:20px;
+      padding-left:20px;
+      padding: 5px;
+     white-space:nowrap;
+     border-radius: 20px;
+  }
+.ssffmargin{
+    margin-top:30px;
+
+}
+.ssffcolor{
+    color:green;
+}
+.ssffinfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.ssffinfo div{
+    margin-right: 20px;
+}
+.ssffleftbox{
+    width:15%
+}
+.ssffrightbox{
+    width:70%;
+    border-left: 2px solid lightgray;
+}
+.ssfforderdisplay{
+    display:flex;
+}
+.ssffright_oder{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.ssffdish_div{
+    display:flex;
+    overflow: hidden;
+    width: 750px;
+    height:140px;
+    margin-bottom: 20px;
+}
+.ssffdish_img_div{
+    border-radius:10px;
+    width:500px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.ssffdiv_margin{
+    margin-left:20px;
+}
+.ssffflex{
+    display: flex;
+}
+.ssffd_margin{
+    gap: 20px;
+}
+.ssffphotos_div{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    margin-top: 40px;
+    grid-gap: 10px;
+}
+.ssffphotos_div div{
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ssffmenu_div_1{
+    margin-top:70px;
+}
+.ssffmenu_div_2{
+    margin-top:30px;
+}
+.ssffleft_review{
+
+}
+.ssffselect_div{
+    display: flex;
+    justify-content: space-between;
+}
+.ssffbutton_size{
+   /* width:40px;
+   height:40px; */
+    /* overflow: hidden; */
+    
+
+}
+.ssffmargin_share div{
+    margin-right:20px;
+}

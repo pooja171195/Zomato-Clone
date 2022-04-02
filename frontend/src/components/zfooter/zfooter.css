@@ -1,0 +1,256 @@
+.zfot{
+
+    background-color: rgb(245, 245, 245);
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.zfot-wrapper{
+
+    /* background-color: grey; */
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.zfot-t{
+
+    /* background-color: coral; */
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.zfot-m{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 270px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.zfot-b{
+
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 80px;
+
+}
+
+.zfot-b>p{
+
+    margin-top: 8px;
+    padding: 10px 10px;
+    font-size: 13px;
+
+    color: rgb(102, 102, 102);
+}
+
+.zfot-tlogo{
+
+    /* background-color: beige; */
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+
+}
+.zfot-tlogo>img{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.zfot-tbtn{
+
+    /* background-color: antiquewhite; */
+    display: flex;
+
+
+}
+
+.zfot-tbtn>button{
+
+    padding: 8px 20px;
+
+    font-size: 18px;
+    margin:8px;
+    border-radius: 5px;
+
+    background-color: transparent;
+
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+.zfot-tbtn>button:hover{
+    cursor: pointer;
+}
+
+.zfotm1,.zfotm2,.zfotm3,.zfotm4,.zfotm5{
+
+    /* background-color: bisque; */
+    margin: 10px;
+
+}
+
+.fotul{
+
+    list-style-type:none;
+
+}
+
+.zfotm5>ul>li>h4{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.fotul>li>h4{
+
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+
+}
+
+.fotul>li{
+
+    padding-bottom:10px;
+
+    font-size: 15px;
+}
+
+
+
+
+/* sicon */ 
+
+.fa {
+    padding : 10px;
+    font-size: 15px;
+    width: 3px;
+    height: 3px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    
+    
+    
+    border-radius :50%
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: white;
+    
+  display: flex;
+   
+    flex-direction : column ;
+   
+    justify-content :center;
+    align-items : center;
+  }
+
+  .fa-youtube {
+    background: black;
+    color: white;
+    
+  display: flex;
+   
+    flex-direction : column ;
+   
+    justify-content :center;
+    align-items : center;
+  }
+  
+  
+  .fa-twitter {
+    background: black;
+    color: white;
+    display: flex;
+   
+       flex-direction : column ;
+   
+    justify-content :center;
+    align-items : center;
+  }
+  
+  
+  .fa-linkedin {
+   background: black;
+    color: white;
+    display: flex;
+   
+       flex-direction : column ;
+   
+    justify-content :center;
+    align-items : center;
+  }
+  
+  
+  .fa-instagram {
+    background: black;
+    color: white;
+    display: flex;
+   
+       flex-direction : column ;
+   
+    justify-content :center;
+    align-items : center;
+  }
+
+  .sicons{
+      /* background-color: gray; */
+      display: flex;
+      padding: 0 10px;
+  }
+  
+  /* sicon */
+
+  .gstore,.Astore{
+
+    /* background-color: red; */
+    width: 150px;
+
+  }
+
+  .gstore,.Astore:hover{
+      cursor: pointer;
+  }
+
+  .gstore>img,.Astore>img{
+
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .fotul>li>a{
+
+        text-decoration: none;    
+
+  }
+
+  .fotul>li>a>p{
+
+    color: gray;
+  }
+
+  .fotul>li>a>p:hover{
+      color: rgb(102, 102, 102)
+  }

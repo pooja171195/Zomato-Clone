@@ -39,11 +39,12 @@ input[type="radio"] {
   padding: 10px;
   border-radius: 6px;
 }
-input {
+
+.emailPhoneInputs input {
   border: none;
 }
 
-input[type="tel"] {
+.emailPhoneInputs input[type="tel"] {
   border-left: 0.3px solid rgb(75, 71, 71);
   border-bottom: none;
   border-top: none;
@@ -52,14 +53,14 @@ input[type="tel"] {
   margin: 5px;
 }
 
-input:focus,
+.emailPhoneInputs input:focus,
 select:focus,
 textarea:focus,
 button:focus {
   outline: none;
 }
 
-input[type="submit"] {
+.emailPhoneInputs input[type="submit"] {
   width: 150px;
   border-radius: 6px;
   background-color: #ef4f5f;
@@ -67,10 +68,14 @@ input[type="submit"] {
   border-color: #ef4f5f;
 }
 
-input[type="submit"]:hover {
+.emailPhoneInputs input[type="submit"]:hover {
   border-color: #ee3446;
   background-color: #ee3446;
   cursor: pointer;
+}
+
+#btn {
+  height: 50px;
 }
 
 .downloadDiv {

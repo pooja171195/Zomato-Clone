@@ -3,6 +3,7 @@ import PhoneInput from "react-phone-number-input";
 import { useState } from "react";
 import "./MobilePage.css";
 
+
 export default function MobilePage() {
   const [isEmail, setEmailFlag] = useState(true);
   const [isPhone, setPhoneFlag] = useState(false);
@@ -15,7 +16,6 @@ export default function MobilePage() {
         <div className="imageDiv">
           <img
             width="100%"
-            alt="mobile"
             src="https://b.zmtcdn.com/web_assets/91fd934b79f23aeba3c3908837208ec71626083686.png"
           />
         </div>
@@ -38,7 +38,7 @@ export default function MobilePage() {
                   setPhoneFlag(!isPhone);
                 }}
               />
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
             </div>
             <div>
               <input
@@ -51,7 +51,7 @@ export default function MobilePage() {
                 }}
                 checked={isPhone}
               />
-              <label for="phone">Phone</label>
+              <label htmlFor="phone">Phone</label>
             </div>
           </div>
           <form
@@ -61,7 +61,10 @@ export default function MobilePage() {
             className="inputs"
           >
             <div className="inputDiv">
-              <div style={{ display: isPhone ? "block" : "none" }}>
+              <div
+                className="emailPhoneInputs"
+                style={{ display: isPhone ? "block" : "none" }}
+              >
                 <PhoneInput
                   defaultCountry="IN"
                   placeholder="type here..."
@@ -70,7 +73,10 @@ export default function MobilePage() {
                 />
               </div>
 
-              <div style={{ display: isEmail ? "block" : "none" }}>
+              <div
+                className="emailPhoneInputs"
+                style={{ display: isEmail ? "block" : "none" }}
+              >
                 <input
                   id="email"
                   type="email"
@@ -79,19 +85,24 @@ export default function MobilePage() {
                 ></input>
               </div>
             </div>
-            <input name="submit" type="submit" value="Share App Link" />
+            <div className="emailPhoneInputs">
+              <input
+                id="btn"
+                name="submit"
+                type="submit"
+                value="Share App Link"
+              />
+            </div>
           </form>
           <div className="downloadDiv">
             <p>Download app from</p>
             <div className="storeButtons">
               <img
                 width="150px"
-                alt="icon"
                 src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
               />
               <img
                 width="150px"
-                alt="icon"
                 src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
               />
             </div>

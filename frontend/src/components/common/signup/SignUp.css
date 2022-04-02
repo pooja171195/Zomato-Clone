@@ -1,110 +1,76 @@
-.policy{
-    text-decoration: none;
-    color: red;
-    /* margin-left: 20px; */
+#signupContainer {
+  /* border: 1px solid red; */
+  width: 350px;
+  height: 530px;
+  padding: 10px;
+  /* display: flex; */
+  justify-content: center;
+  /* height: 550px;
+  width: 35%; */
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: white;
 }
-#policyCheck{
-width: 15px;
-/* margin-left: 20px; */
+.signupInputs > input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
 }
-.main1{
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
-    display: flex; 
-    padding-top: 30px;
-    padding-bottom: 90px;
-    background-color: hwb(228 88% 8%);
-  }
-  .sub-main1 {
-    display: flex;
-    justify-content: center;
-    height: 450px;
-    width: 35%;
-    margin-top: 80px;
-    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
-    padding-top: 20px;
-    border-radius: 10px; 
-    background-color: white;
-  }
-  
-  .continueWithEmail{
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    padding: 7px 0 0 45px;
-  }
 
-  .name{
-      padding-left: 20px;
-      font-size: 20px;
-  }
-  
-  .second-input{
-      padding-top: 20px;
-  }
+.signupCheckInputs {
+  display: flex;
+  margin: 5px;
+}
 
-  /* button{
-      width: 380px;
-      height: 60px;
-      border-radius: 10px;
-      background-color: #ec2e2ef1;
-      color: white;
-      font-size: 25px;
-      border: 1px solid;
-  } */
-  #continueWithEmail{
-     /* width: 380px; */
-     font-size: 20px; 
-     width: 380px;
-     height: 50px;
-     border-radius: 10px;
-     color: black;
-     border: 1px solid black;
-     background-color:rgba(255, 239, 239, 0.938);
- }
-  .login-button{
-      padding-top: 25px;
-  }
+#line {
+  width: 270px;
+  margin-left: 40px;
+  display: flex;
+}
 
-  input{
-      width: 350px;
-      height: 50px;
-      border-radius: 10px;
-      /* box-shadow: inset 0px 0px 25px 0px #888; */
-      border: 1px solid black;
-      /* outline: none; */
-      background-color: rgb(255, 255, 255);
-  }
+hr {
+  width: 120px;
+}
+input[type="checkbox"] {
+  margin-left: 35px;
+  background: white;
+}
 
-  .number{
-      padding-left: 20px;
-      font-size: 20px;
-  }
-  
+input[type="checkbox"]:checked {
+  background: red;
+  color: white;
+}
 
-  button{
-      width: 380px;
-      height: 60px;
-      border-radius: 10px;
-      background-color:rgba(255, 239, 239, 0.938);
-      color: rgb(2, 2, 2);
-      font-size: 25px;
-      border: 1px solid;
-  }
-  button:hover{
-      background-color: rgba(245, 64, 64, 0.904);
-      color: white;
-  }
-  #continueWithEmail:hover{
-    /* background-color: rgba(245, 64, 64, 0.904); */
-    color: rgb(243, 88, 88);
-  }
- 
-  .login-button{
-      padding-top: 25px;
-  }
+.btn input {
+  padding: 10px;
+  margin: 10px;
+  width: 270px;
+  background-color: white;
+  border: gray 0.5px solid;
+}
 
-   a{
-      color: blue;
-   }
+#signupLable {
+  /* border: #ef4f5f 1px solid; */
+  width: 260px;
+}
+
+#lable {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.para {
+  padding: 5px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #ef4f5f;
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}

@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hed{
+    height:420px;
+    background: url("../../images/header_img.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background: cover;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.hed-wrapper{
+
+    /* background-color: blue; */
+    width: 950px;
+    padding: 8px;
+
+}
+
+.zlogo{
+    
+    /* background-color: red; */
+    width:125px;
+    margin: 5px;
+    
+}
+
+.zlogo:hover{
+    cursor: pointer;
+}
+
+.hed-wrapper-t {
+
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pu{
+    /* background-color: red; */
+    display: flex;
+    margin:5px;
+    font-size:20px;
+    color: white;
+}
+
+.pu-i{
+    margin:8px;
+}
+
+
+.hed-wrapper-b
+{
+    /* background-color: red; */
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.b-i{
+
+    color: white;
+    /* background-color: gray; */
+    margin: 5px;
+}
+
+.b-i>h2{
+
+    font-size: 35px;
+    font-weight: 400;
+}
+.b-i>p{
+    padding-top:5px;
+    font-size: 20px;
+}
+
+.b-i-btnwrp{
+
+    /* background-color: coral; */
+    padding-top:8px;
+    margin-left: -5px;
+
+}
+
+.b-i-btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.b-i-btn:hover{
+    cursor: pointer;
+}
+
+.btn-reg{
+    background-color:#0366D6;
+    color: white;
+    width: 350px;
+}
+
+.btn-reg:hover{
+    background-color: #0254b3;
+}
+
+.btn-clm{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-clm:hover{
+    
+    background-color: rgba(109, 109, 109, 0.555);
+}
+
