@@ -1,7 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import HomePage from "./pages/Home/index";
-import axios from "axios";
 
 import { Route, Routes } from "react-router";
 import Overview from "./components/ProductDetailsPage/Overview";
@@ -18,12 +15,6 @@ import { Signup } from "./components/common/Signup/SignUp";
 import MobilePage from "./components/MobilePage/MobilePage";
 
 const App = () => {
-  const [data, setData] = useState(null);
-
-  // {/* <Login/> */}
-  //  {/* <PhoneLogin/> */}
-  // {/* <SignUp/> */}
-
   return (
     <Routes>
       <Route path={"/"} element={<Home />} />
