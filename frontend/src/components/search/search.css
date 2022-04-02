@@ -1,4 +1,4 @@
-.div1{
+/* .div1{
 height: 50px;
 margin-top: 35px;
 border: 1px solid white;
@@ -26,4 +26,104 @@ display: flex;
 }
 .div1>hr{
     color: 1px solid rgb(63, 62, 62);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-logo {
+  height: 27px;
+  max-width: 140px;
+  margin-right: 24px;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.header-location-search-container {
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  border: 1px solid rgb(232, 232, 232);
+}
+
+.location-search-separator {
+  height: 20px;
+  border: 0.5px solid rgb(207, 207, 207);
+}
+
+.location-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.location-icon-name {
+  display: flex;
+  color: var(--zomato-gray);
+}
+
+.location-icon {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #d92662;
+}
+
+.header-searchBar {
+  display: flex;
+  flex: 2;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #828282;
+  margin: 0px 12px;
+}
+
+.search-input {
+  border: none;
+  width: 60%;
+  font-size: 14px;
+  outline: none;
+}
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+
+.header-profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.header-username {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile-options-icon {
+  font-size: 20px;
+}
+
+.max-width {
+  max-width: 1100px;
+  margin: 0px auto;
 }

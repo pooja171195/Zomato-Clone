@@ -112,3 +112,11 @@ export const Sp = styled.div`
     display: none;
   }
 `;
+export const S = styled.div`
+ 
+  align-items: center;
+ margin-left:20%;
+  */ @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;

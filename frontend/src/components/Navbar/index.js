@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "../search/search";
-import { Nav, NavLink, Bars, NavMenu, NavMenu1, Zomato, Sp } from "./Navbar";
+// import Header from "../header/header";
+import { Nav, NavLink, Bars, NavMenu, NavMenu1, Zomato, Sp,S } from "./Navbar";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
 
         <Zomato>zomato</Zomato>
         <Sp>Discover the best food & drinks in Allahabad</Sp>
-        <Search />
+        <S><Search /></S>
       </Nav>
     </>
   );
