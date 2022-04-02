@@ -11,8 +11,13 @@ import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
 import Home from "./components/Home/Home";
 
-import { Login } from "./components/common/login/Login";
+
 import { PhoneSignup } from "./components/common/login/Phonesignup";
+
+
+// import Navbar from "./components/Navbar/index";
+import { Login } from "./components/common/login/Login";
+
 import { Signup } from "./components/common/signup/SignUp";
 
 import MobilePage from "./components/MobilePage/MobilePage";
