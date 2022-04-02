@@ -1,4 +1,5 @@
 import React from 'react'
+import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 import "./products.css"
 const Photos = () => {
@@ -24,6 +25,8 @@ const Photos = () => {
 ))}
         </div>
               </div>
+
+              <Zfooter />
     </div>
   )
 }

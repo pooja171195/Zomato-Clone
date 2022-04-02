@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 import "./products.css"
 
@@ -55,6 +56,7 @@ const Overview = () => {
 </div>
      
   </div>
+  <Zfooter />
     </div>
   )
 }

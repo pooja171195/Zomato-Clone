@@ -1,4 +1,5 @@
 import React from 'react'
+import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 
 const Menu = () => {
@@ -36,6 +37,7 @@ const Menu = () => {
 
 
              </div>
+             <Zfooter />
 
     </div>
   )

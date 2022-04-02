@@ -1,4 +1,5 @@
 import React from 'react'
+import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 import "./products.css"
 const OrderOnline = () => {
@@ -58,6 +59,7 @@ const OrderOnline = () => {
    
             </div>
 
+<Zfooter />
     </div>
   )
 }

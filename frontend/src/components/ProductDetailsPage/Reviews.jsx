@@ -1,4 +1,5 @@
 import React from 'react'
+import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 import "./products.css"
 const Reviews = () => {
@@ -88,6 +89,7 @@ const Reviews = () => {
    <div></div>
 
         </div>
+        <Zfooter />
     </div>
   )
 }

@@ -1,18 +1,23 @@
 .box{
 
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 .flex{
     display:flex;
 }
 .ssfgg23_div{
 width:310px;
-height:200px;
+height:180px;
 margin-left:150px;
 border-radius:10px;
 display:flex;
 padding:3px 5px 0px  10px;
 background-color:black;
+position: fixed;
+     bottom: 0;
+     right: 0;
+     margin-bottom: 50px;
+     margin-right: 50px;
 
 }
 .sssffgg_inner_div1{
