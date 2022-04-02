@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Zfooter } from '../zfooter/zfooter'
 import ProductDetails from './ProductDetails'
 import "./products.css"
 const OrderOnline = () => {
     let obj=JSON.parse(localStorage.getItem("OrderItem"))
-    
+    const [search,setSearch] = useState("")
   return (
     <div>
         <ProductDetails />
@@ -26,12 +26,14 @@ const OrderOnline = () => {
                <p><span className="iconify" data-icon="prime:compass"></span>Live tracking not available |<span className="iconify" data-icon="prime:compass"></span> 30 min</p>
            </div>
            <div>
-               <input type="text"  placeholder="Search within menu" />
+               <input type="text" onChange={(e)=>{
+                   setSearch(e.target.value);
+               }}  placeholder="Search within menu" />
            </div>
        </div>
        <input type="checkbox"  /><span>veg only</span>
    <h1>Recommended</h1>
-   {obj.dish.map((e)=>(
+   {obj.dish.length && obj.dish.filter((e)=> e.title.includes(search)).map((e)=>(
 
        <div className="ssffdish_div box">
 

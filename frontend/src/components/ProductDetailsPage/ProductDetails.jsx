@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Header from '../header/header'
 import Floating_div from './Floating_div'
 import "./products.css"
 
@@ -11,8 +12,11 @@ let a ="https://www.google.com/maps/dir/Koramangala,+Bengaluru,+Karnataka/Yerthi
    
 
   return (
+      <>   <Header />
+      
+      
     <div className="ssffcontainer">
-
+ 
         <div className="ssffimg_container box" >
  <div className="ssffimg1">
      <img style={{height:"100%",width:"100%" }}  src={obj.img1} />
@@ -97,6 +101,7 @@ let a ="https://www.google.com/maps/dir/Koramangala,+Bengaluru,+Karnataka/Yerthi
 
  <Floating_div />
     </div>
+    </>
   )
 }
 
