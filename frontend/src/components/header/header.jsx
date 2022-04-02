@@ -1,13 +1,24 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
+  const navigate =useNavigate()
+const handleLocation =()=>{
+
+  navigate("/")
+}
+
   return (
     <div className="header max-width">
       <img
         src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
         alt="Zomato-logo"
         className="header-logo"
+        style={{cursor: "pointer"}}
+        onClick={()=>{
+          handleLocation()
+        }}
       />
       <div className="header-right">
         <div className="header-location-search-container">
