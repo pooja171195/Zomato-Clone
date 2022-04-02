@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar/index";
 import "./landing.css";
+import MobilePage from "../../components/MobilePage/MobilePage";
+import { Zfooter } from "../../components/zfooter/zfooter";
 
 export const Landing = () => {
   return (
@@ -98,48 +100,58 @@ export const Landing = () => {
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Tagore Town (41 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Ashok Nagar (31 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Katra (128 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Colonel Ganj (26 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Leader Road (46 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Naini (207 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Lukerganj (41 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Meergunj (32 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Bairahana (36 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Teliarganj (95 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Rambagh (69 places)</p>
           </div>
+        </div >
+       
+        <div className="PMob">
+         
+          <MobilePage/>
+       
+        
+        </div>
+        <div className="Ku">
+<Zfooter/>
         </div>
       </div>
     </>

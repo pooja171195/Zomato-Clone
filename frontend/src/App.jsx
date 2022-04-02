@@ -11,9 +11,9 @@ import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
 import Home from "./components/Home/Home";
 // import Navbar from "./components/Navbar/index";
-import { Login } from "./components/common/Login/Login";
-import { PhoneSignup } from "./components/common/Login/Phonesignup";
-import { Signup } from "./components/common/Signup/SignUp";
+import { Login } from "./components/common/login/Login";
+import { PhoneSighup } from "./components/common/login/Phonesignup";
+import { Signup } from "./components/common/signUp/SignUp";
 import { Landing } from "./pages/Home/landing";
 import MobilePage from "./components/MobilePage/MobilePage";
 import { OnlineDelivery } from "./components/OnlineDelivery/OnlineDelivery";
@@ -32,7 +32,7 @@ const App = () => {
         <Route path={"/mobilepage"} element={<MobilePage />} />
         <Route path={"/login"} element={<Login />} />
         <Route path={"/signup"} element={<Signup />} />
-        <Route path={"/phonelogin"} element={<PhoneSignup />} />
+        <Route path={"/phonelogin"} element={<PhoneSighup />} />
       </Routes>
     </>
   );

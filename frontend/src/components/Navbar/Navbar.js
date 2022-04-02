@@ -81,7 +81,7 @@ export const NavMenu1 = styled.div`
 export const Zomato = styled.div`
   display: grid;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 22px;
   margin-left: 38%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 90px;
@@ -96,7 +96,7 @@ export const Zomato = styled.div`
 export const Sp = styled.div`
   display: grid;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-left: 18%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;

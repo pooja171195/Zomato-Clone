@@ -5,7 +5,7 @@ import { useUserAuth } from "../../../context/UserAuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 
-export const PhoneSignup = () => {
+export const PhoneSighup = () => {
   const [number, setNumber] = useState("");
   const [otp, setOtp] = useState("");
   const [result, setResult] = useState("");
