@@ -1,0 +1,52 @@
+.alisted{
+    background-color:#F5F5F5 ;
+    margin-top:100px;
+    height: 325px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.A-wrapper{
+
+    /* background-color: coral; */
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.A-fill>input{
+
+    width:90%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.A-fill>h1{
+
+    font-size: 40px;
+    font-weight: 450;
+
+    padding-bottom:20px;
+
+    color: #363636;
+
+}
+
+.A-fill>h4{
+
+    font-size: 20px;
+    font-weight: 500;
+
+    padding-bottom:30px;
+
+    color:#6B6B6B ;
+
+}
+

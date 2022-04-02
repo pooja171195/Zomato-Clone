@@ -1,0 +1,77 @@
+.exploth{
+
+    /* background-color: red; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.exp-wrap{
+
+    /* background-color: rgb(150, 96, 96); */
+    width: 1130px;
+}
+
+.exp-wrap>h1{
+    /* background-color: yellow; */
+    padding: 20px 0;
+
+    font-weight: 450;
+}
+
+.exp-pop>h3{
+
+    /* background-color: bisque; */
+
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+
+.exp-pop>p{
+
+    /* background-color: rgb(255, 191, 108); */
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    padding-bottom: 100px;
+}
+
+.exp-ains>h3{
+    /* background-color: bisque; */
+
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+
+.expt{
+    /* background-color: blue; */
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.expt>p{
+    /* background-color: rgb(255, 191, 108); */
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    width: 100px;
+    
+
+}
+
+
+.edot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px 10px;
+  }
