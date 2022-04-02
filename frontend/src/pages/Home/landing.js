@@ -12,6 +12,22 @@ const navigate = useNavigate()
     navigate("/OnlinePage")
 
   }
+  const navigate2 = useNavigate()
+  const handleLocation2= ()=>{
+    navigate2("/OnlinePage")
+
+  }
+  const navigate3 = useNavigate()
+  const handleLocation3= ()=>{
+    navigate3("/OnlinePage")
+
+  }
+  const navigate4 = useNavigate()
+  const handleLocation4= ()=>{
+    navigate4("/OnlinePage")
+
+  }
+
   return (
     <>
       <Navbar />
@@ -27,7 +43,9 @@ const navigate = useNavigate()
             />
             <div class="tag">Order Online</div>
           </div>
-          <div class="containerP">
+          <div class="containerP" onClick={()=>{
+            handleLocation2()
+          }}>
             <img
               className="icon1"
               src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?fit=around|402:360&crop=402:360;*,*"
@@ -35,7 +53,9 @@ const navigate = useNavigate()
             />
             <div class="tag">Dining Out</div>
           </div>
-          <div class="containerP">
+          <div class="containerP" onClick={()=>{
+            handleLocation3()
+          }}>
             <img
               className="icon1"
               src="https://b.zmtcdn.com/webFrontend/7c5da5fa471e5e5f26745709f60498a71647365004.jpeg?fit=around|402:360&crop=402:360;*,*"
@@ -43,7 +63,9 @@ const navigate = useNavigate()
             />
             <div class="tag">Pro and Pro Plus</div>
           </div>
-          <div class="containerP">
+          <div class="containerP" onClick={()=>{
+            handleLocation4()
+          }}>
             <img
               className="icon1"
               src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?fit=around|402:360&crop=402:360;*,*"
