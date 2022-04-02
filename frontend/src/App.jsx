@@ -25,6 +25,7 @@ import { OnlineDelivery } from "./components/OnlineDelivery/OnlineDelivery";
 import { Landing } from "./pages/Home/landing";
 
 import { Addrestaurant } from "./components/Add-restaurant/add-restraunt";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         <Route path={"/signup"} element={<Signup />} />
         <Route path={"/phonesignup"} element={<PhoneSignup />} />
         <Route path={"/addrestaurant"} element={<Addrestaurant />} />
+        <Route path={"*"} element={<PageNotFound />} />
       </Routes>
     </>
   );
