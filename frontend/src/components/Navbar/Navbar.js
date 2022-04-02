@@ -5,13 +5,18 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
   height: 430px;
-  width: 102%;
+  width: 100%;
   display: grid-flex;
   align: center;
-  margin-left: -20px;
-  margin-top: -20px;
-  margin-right: -20px;
+ 
+  background-size: cover;
+ 
+
+  
   right: 0px;
+  background-repeat: no-repeat;
+  
+  
 
   font-family: Arial, Helvetica, sans-serif;
 `;

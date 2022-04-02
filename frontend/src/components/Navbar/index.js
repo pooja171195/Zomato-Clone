@@ -5,20 +5,20 @@ import { Nav, NavLink, Bars, NavMenu, NavMenu1, Zomato, Sp } from "./Navbar";
 const Navbar = () => {
   return (
     <>
-      <Nav>
+      <Nav >
         <Bars>Get the App Add restaurants Log in Sign up</Bars>
         <NavMenu>
           <NavLink to="/GetApp" activeStyle>
             Get the App
           </NavLink>
           <NavMenu1>
-            <NavLink to="/AddRestaurant" activeStyle>
+            <NavLink to="/addrestaurant" activeStyle>
               Add restaurants
             </NavLink>
-            <NavLink to="/SignIn" activeStyle>
+            <NavLink to="/login" activeStyle>
               Log in
             </NavLink>
-            <NavLink to="/SignUp" activeStyle>
+            <NavLink to="/signup" activeStyle>
               Sign up
             </NavLink>
             {/* Second Nav */}

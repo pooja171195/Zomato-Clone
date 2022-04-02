@@ -1,14 +1,25 @@
 import React from "react";
 import Navbar from "../../components/Navbar/index";
 import "./landing.css";
+import MobilePage from "../../components/MobilePage/MobilePage";
+import { Zfooter } from "../../components/zfooter/zfooter";
+import { useNavigate } from "react-router-dom";
+
 
 export const Landing = () => {
+const navigate = useNavigate()
+  const handleLocation= ()=>{
+    navigate("/onlinedelivery")
+
+  }
   return (
     <>
       <Navbar />
       <div className=".poD1">
         <div className="poojaD">
-          <div class="containerP">
+          <div class="containerP" onClick={()=>{
+            handleLocation()
+          }}>
             <img
               className="icon1"
               src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?fit=around|402:360&crop=402:360;*,*"
@@ -98,48 +109,58 @@ export const Landing = () => {
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Tagore Town (41 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Ashok Nagar (31 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Katra (128 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Colonel Ganj (26 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Leader Road (46 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Naini (207 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Lukerganj (41 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Meergunj (32 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Bairahana (36 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p> Teliarganj (95 places)</p>
           </div>
           <div className="LolD">
             {" "}
-            <p> Civil Lines (340 places)</p>
+            <p>Rambagh (69 places)</p>
           </div>
+        </div >
+       
+        <div className="PMob">
+         
+          <MobilePage/>
+       
+        
+        </div>
+        <div className="Ku">
+<Zfooter/>
         </div>
       </div>
     </>

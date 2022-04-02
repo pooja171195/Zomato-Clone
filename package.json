@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "cd frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "express": "^4.17.3",
     "mongoose": "^6.2.9",
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }

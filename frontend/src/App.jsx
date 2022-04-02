@@ -10,13 +10,23 @@ import Reviews from "./components/ProductDetailsPage/Reviews";
 import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
 import Home from "./components/Home/Home";
+
+import { PhoneSignup } from "./components/common/Login/Phonesignup";
+
 // import Navbar from "./components/Navbar/index";
 import { Login } from "./components/common/Login/Login";
-import { PhoneSignup } from "./components/common/Login/Phonesignup";
+
 import { Signup } from "./components/common/Signup/SignUp";
-import { Landing } from "./pages/Home/landing";
+
 import MobilePage from "./components/MobilePage/MobilePage";
 import { OnlineDelivery } from "./components/OnlineDelivery/OnlineDelivery";
+import { Landing } from "./pages/Home/landing";
+
+import { Addrestaurant } from "./components/Add-restaurant/add-restraunt";
+import { OnlinePage } from "./components/OnlineDelivery/OnlinePage";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
+import { Dinout } from "./components/OnlineDelivery/Dinout";
+import { Nightlife } from "./components/OnlineDelivery/Nightlife";
 
 const App = () => {
   return (
@@ -32,7 +42,12 @@ const App = () => {
         <Route path={"/mobilepage"} element={<MobilePage />} />
         <Route path={"/login"} element={<Login />} />
         <Route path={"/signup"} element={<Signup />} />
-        <Route path={"/phonelogin"} element={<PhoneSignup />} />
+        <Route path={"/phonesignup"} element={<PhoneSignup />} />
+        <Route path={"/addrestaurant"} element={<Addrestaurant />} />
+        <Route path="/OnlinePage" element={<OnlinePage />} />
+        <Route path="/dinout" element={<Dinout />} />
+        <Route path="/nightlife" element={<Nightlife />} />
+        <Route path={"*"} element={<PageNotFound />} />
       </Routes>
     </>
   );
