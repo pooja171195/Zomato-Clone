@@ -1,0 +1,114 @@
+.hworks{
+    /* background-color: red; */
+    height:500px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/howbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hworks-i{
+
+    /* background-color: blue; */
+    width: 950px;
+    margin-top:50px;
+}
+
+.hworks-t{
+
+    /* background-color: yellow; */
+    text-align: center;
+    margin: 20px;
+
+}
+
+.hworks-t>h1{
+
+    font-weight: 500;
+    font-size:35px;
+
+}
+
+.hworks-cards{
+    /* background-color: gray; */
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hworks-card{
+
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.h-crd-img{
+    height:200px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.h-circle{
+    /* background-color: #FFFCF1; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.h-circle>img{
+
+    height:70px;
+    
+
+}
+
+.h-crd-info{
+    height: 150px;
+    /* background-color: green; */
+    text-align: center;
+
+}
+
+.h-crd-info>h3{
+    padding: 5px;
+    font-size:25px;
+    font-weight: 450;
+}
+
+.h-crd-info>h4{
+    padding:5px;
+    font-size:18px;
+    font-weight: 430;
+}
+
+.h-crd-info>p{
+    padding: 5px 10px;
+}
+
+.crd-ic1{
+    background-color: #fdf7e2;
+}
+
+.crd-ic2{
+    background-color: #ffeff0;
+}
+
+.crd-ic3{
+    background-color: #fff3eb;
+}
+

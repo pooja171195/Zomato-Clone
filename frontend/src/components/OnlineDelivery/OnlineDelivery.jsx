@@ -1,8 +1,14 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./OnlineDelivery.css";
+import First from "../common/CaraouselNew/FirstTest";
+import Second from "../common/CaraouselNew/SecondTest";
+import { Zfooter } from "../zfooter/zfooter";
+import { useNavigate } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 
 export const OnlineDelivery = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -18,10 +24,14 @@ export const OnlineDelivery = () => {
   const handleChange = (e) => {
     console.log(e);
     localStorage.setItem("OrderItem", JSON.stringify(e));
+    // <Navigate to="/orderonline"></Navigate>;
+    navigate("/orderonline");
   };
 
   return (
     <>
+      <First />
+      <Second />
       <div id="dataContainer">
         <h1>Order food online in Chetana Colony, Vidya Nagar, Hubli</h1>
         {data.map((el) => (
@@ -47,6 +57,7 @@ export const OnlineDelivery = () => {
           </div>
         ))}
       </div>
+      <Zfooter />
     </>
   );
 };

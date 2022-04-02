@@ -1,0 +1,135 @@
+.findres{  
+    background-color: red;
+    height: 585px;
+
+    background-image: url("../../images/bgresfn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.f-wrapper{
+    width: 950px;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.f-wrapper-l{
+
+    /* background-color: gray; */
+    flex: 1;
+    height: 420px;
+    width: 420;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.f-wrapper-r{
+
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex: 1;
+    height: 420px;
+    width: 420;
+
+    border-radius:10px;
+
+}
+
+
+
+.f-left>h3{
+
+    font-size: 40px;
+    font-weight: 450;
+    padding: 10px;
+
+}
+
+.f-left>p{
+
+    padding:10px;
+    font-size:18px;
+}
+
+.f-right{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.f-right1{
+
+    height:45px;
+    width: 400px;
+    margin: 8px;
+
+    border-radius: 8px;
+    border: 1px solid #CFCFCF;
+    
+    font-size: 18px;
+
+    
+    
+    outline: none;
+    
+}
+
+::placeholder{
+    padding: 20px;
+    color: #adadad;
+}
+
+.f-right2{
+    width: 400px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 8px;
+    border: 1px solid #CFCFCF;
+    font-size: 18px;
+
+    outline: none;
+}
+
+
+.f-right>button{
+
+    width:400px;
+    height: 45px;
+
+    background-color:#4683ec ;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 8px;
+
+    font-size: 18px;
+
+    
+}
+
+.f-right>button:hover{
+
+    background-color:#386bc5 ;
+
+}
+
+.f-right>p>a{
+
+    text-decoration: none;
+    color: #2E75EF;
+
+}
+
+.f-right>p{
+    margin: 8px;
+}

@@ -1,0 +1,66 @@
+.strtj{
+
+    /* background-color: red; */
+    height: 250px;
+    margin-top:100px ;
+
+}
+
+.strtj-wrapper{
+
+    width:950px;
+    background-color: coral;
+    height:100%;
+    margin: auto;
+    border-radius:10px;
+ 
+     background-image: url("../../images/strtj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.strtj-c{
+
+    /* background-color: red; */
+    margin-top: 40px;
+    margin-left:30px ;
+
+}
+
+.strtj-c>h2{
+
+    font-size:40px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.strtj-c>p{
+
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.strtj-c>button{
+
+    background-color:#2E75EF;
+    border: 0;
+    color: white;
+    padding:12px 40px ;
+    font-size: 18px;
+    border-radius:8px;
+
+}
+
+.strtj-c>button:hover{
+
+    background-color: #236ae4;
+
+}
