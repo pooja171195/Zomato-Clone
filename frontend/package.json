@@ -14,9 +14,8 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
-    "web-vitals": "^2.1.4",
-    "firebase": "^9.4.1"
-
+    "firebase": "^9.4.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

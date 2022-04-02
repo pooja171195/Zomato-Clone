@@ -1,7 +1,7 @@
 #signinContainer {
   /* border: 1px solid red; */
   width: 350px;
-  height: 400px;
+  height: 430px;
   padding: 10px;
   justify-content: center;
   /* height: 550px;
@@ -25,9 +25,9 @@
 }
 
 .btn1 input {
-  padding: 10px;
-  margin: 10px 10px 10px 2px;
-  width: 320px;
+  padding: 10px 10px 10px 6px;
+  margin: 10px 10px 10px 0px;
+  width: 300px;
   background-color: white;
   border: gray 0.5px solid;
 }
