@@ -69,6 +69,11 @@
     margin-top: 20px;
 }
 
+.wn-right>h2{
+    padding-left: 60px;
+    /* background-color: red; */
+}
+
 .wn-right1{
 
     height:45px;
