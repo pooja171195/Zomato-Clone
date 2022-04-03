@@ -27,14 +27,13 @@ import { OnlinePage } from "./components/OnlineDelivery/OnlinePage";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import { Dinout } from "./components/OnlineDelivery/Dinout";
 import { Nightlife } from "./components/OnlineDelivery/Nightlife";
-import { Zpro } from "./components/Add-restaurant/Zpro/Zpro";
-import { Adver } from "./components/Add-restaurant/Adver/adver";
+
 
 
 const App = () => {
   return (
     <>
-      {/* <Routes>
+      <Routes>
         <Route path={"/"} element={<Landing />} />
         <Route path={"/onlinedelivery"} element={<OnlineDelivery />} />
         <Route path={"/orderonline"} element={<OrderOnline />} />
@@ -52,9 +51,7 @@ const App = () => {
         <Route path="/nightlife" element={<Nightlife />} />
         <Route path={"*"} element={<PageNotFound />} />
        
-      </Routes> */}
-      <Zpro/>
-      <Adver/>
+      </Routes>
     </>
   );
 };
