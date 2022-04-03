@@ -1,0 +1,132 @@
+.wntmore{  
+    /* background-color: red; */
+    height: 600px;
+
+    background-image: url("../images/zpcd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wn-wrapper{
+    width: 950px;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.wn-wrapper-l{
+
+    /* background-color: gray; */
+    flex: 1;
+    height: 420px;
+    width: 420;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.wn-wrapper-r{
+
+    background-color: #FFFFFF;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex: 1;
+    height: 450px;
+    width: 420;
+    margin-left: 10px;
+
+    border-radius:10px;
+
+}
+
+
+
+.wn-left>h3{
+
+    font-size: 40px;
+    font-weight: 450;
+    padding: 10px;
+
+}
+
+.wn-left>p{
+
+    padding:10px;
+    font-size:18px;
+}
+
+.wn-right{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wn-right1{
+
+    height:45px;
+    width: 400px;
+    margin: 8px;
+
+    border-radius: 8px;
+    border: 1px solid #CFCFCF;
+    
+    font-size: 18px;
+
+    
+    
+    outline: none;
+    
+}
+
+::placeholder{
+    padding: 20px;
+    color: #adadad;
+}
+
+
+.wn-right>div>button{
+
+    width:150px;
+    height: 45px;
+
+    background-color: #f16f7c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 8px;
+
+    font-size: 18px;
+
+    
+}
+
+.wrb{
+    /* background-color: red; */
+    margin-left:-250px;
+}
+
+
+.wn-right>div>button:hover{
+
+    background-color: #E03546;
+
+}
+
+.wn-right>h2{
+    /* background-color: yellow; */
+    font-weight: 400;
+    margin-left: -190px;
+}
+
+.zcall{
+    color: rgb(252, 110, 133);
+    font-weight: 500;
+}

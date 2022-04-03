@@ -1,0 +1,80 @@
+.zpm{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.zpmap{
+    height: 500px;
+    /* background-color: gray; */
+    width: 950px;
+    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../../images/promap1.svg"); */
+    background-image:url("../../../images/promap1.svg"); ;
+    
+    background-repeat:no-repeat;
+    
+    
+}
+
+.zmapt{
+    height: 100%;
+    width: 100%;
+
+    margin-top: -170px;
+
+    background-image: url("../../../images/promap2.svg");
+    opacity: 0;
+    /* background-color: blue; */
+}
+
+.zmapt:hover{
+
+    opacity: 1;
+}
+
+
+.mapnat{
+
+    /* background-color: yellow; */
+    width: 200PX;
+    margin-top: 100px;
+    margin-left: 50px;
+
+
+}
+
+.mapnat>p{
+    font-weight: 500;
+    color: rgb(253, 104, 129);
+}
+
+.mapusr{
+
+    /* background-color: yellow; */
+    width: 200px;
+
+    margin-top: 180px;
+    margin-left: 300px;
+
+}
+
+.mapusr>p{
+    font-weight: 500;
+    color: rgb(253, 104, 129);
+}
+
+.mapres{
+    /* background-color: yellow; */
+    width: 200px;
+
+    margin-left: 650px;
+    margin-top: -300px;
+}
+
+.mapres>p{
+    font-weight: 500;
+    color: rgb(253, 104, 129);
+}

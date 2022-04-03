@@ -1,0 +1,94 @@
+.watin{
+    /* background-color: red; */
+    height:500px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.watin-i{
+
+    /* background-color: blue; */
+    width: 950px;
+}
+
+.watin-t{
+
+    /* background-color: yellow; */
+    text-align: center;
+    margin: 20px;
+
+}
+
+.watin-t>h1{
+
+    font-weight: 500;
+    font-size:35px;
+
+}
+
+.watin-cards{
+    /* background-color: gray; */
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.watin-card{
+
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.watin-crd-img{
+    height:200px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.watin-circle{
+    /* background-color: #FFFCF1; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.watin-circle>img{
+
+    height:100%;
+    
+
+}
+
+.watin-crd-info{
+    height: 150px;
+    /* background-color: green; */
+    text-align: center;
+
+}
+
+
+.watin-crd-info>h4{
+    padding:5px;
+    font-size:20px;
+    font-weight: 450;
+}
+
+.watin-crd-info>p{
+    padding: 5px 10px;
+}
+

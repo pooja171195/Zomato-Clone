@@ -1,0 +1,16 @@
+.azmphed{
+    /* background-color: red; */
+    padding: 20px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.azmphed>h1{
+
+    /* background-color: yellow; */
+    
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}
