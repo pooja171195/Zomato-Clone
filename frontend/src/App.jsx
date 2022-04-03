@@ -16,7 +16,7 @@ import { PhoneSignup } from "./components/common/login/Phonesignup";
 // import Navbar from "./components/Navbar/index";
 import { Login } from "./components/common/login/Login";
 
-import { Signup } from "./components/common/signUp/SignUp";
+import { Signup } from "./components/common/signup/SignUp";
 
 import MobilePage from "./components/MobilePage/MobilePage";
 import { OnlineDelivery } from "./components/OnlineDelivery/OnlineDelivery";
