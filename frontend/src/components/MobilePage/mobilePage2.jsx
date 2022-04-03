@@ -3,9 +3,10 @@ import PhoneInput from "react-phone-number-input";
 import { useState } from "react";
 import "./MobilePage.css";
 import { useNavigate } from "react-router-dom";
+import Header from "../header/header";
 
 
-export default function MobilePage() {
+export default function MobilePage2() {
   const [isEmail, setEmailFlag] = useState(true);
   const [isPhone, setPhoneFlag] = useState(false);
   const [number, setNumber] = useState("");
@@ -14,6 +15,7 @@ export default function MobilePage() {
 
   return (
     <>
+    <Header/>
       <div className="container">
         <div className="imageDiv">
           <img

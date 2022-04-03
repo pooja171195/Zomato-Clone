@@ -4,7 +4,7 @@ import "./floating_div.css"
 const Floating_div = () => {
 const navigate = useNavigate()
     const  handleLocation =()=>{
-navigate("/mobilepage")
+navigate("/mobilepage2")
     }
   return (
     <div className="ssfgg23_div box"> 

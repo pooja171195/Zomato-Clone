@@ -27,6 +27,7 @@ import { OnlinePage } from "./components/OnlineDelivery/OnlinePage";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import { Dinout } from "./components/OnlineDelivery/Dinout";
 import { Nightlife } from "./components/OnlineDelivery/Nightlife";
+import MobilePage2 from "./components/MobilePage/mobilePage2";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path={"/photos"} element={<Photos />} />
         <Route path={"/menu"} element={<Menu />} />
         <Route path={"/mobilepage"} element={<MobilePage />} />
+        <Route path={"/mobilepage2"} element={<MobilePage2 />} />
         <Route path={"/login"} element={<Login />} />
         <Route path={"/signup"} element={<Signup />} />
         <Route path={"/phonesignup"} element={<PhoneSignup />} />
