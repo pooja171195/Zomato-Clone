@@ -1,0 +1,27 @@
+.mainDivByOm{
+border: 1px solid #ff0000;
+display: flex;
+width: 80%;
+gap:50px;
+height: 100vh;
+margin: 150px;
+}
+.leftByOm{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .leftByOm div{
+       margin-bottom: -30px;
+   }
+.leftByOm div p{
+    font-size: 24px;
+}
+.save{
+    /* padding:10px; */
+    border:none;
+    outline:none;
+border-radius: 10px;}
+.rightByOm{
+
+}
