@@ -33,7 +33,7 @@ export const PhoneSignup = () => {
     if (otp === "" || otp === null) return;
     try {
       await result.confirm(otp);
-      navigate("/home");
+      navigate("/");
     } catch (err) {
       alert(err.message);
     }

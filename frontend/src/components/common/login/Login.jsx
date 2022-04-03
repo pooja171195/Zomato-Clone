@@ -21,7 +21,6 @@ export const Login = () => {
 
   return (
     <>
-    
       <div className="main">
         <div id="signinContainer">
           <h1>Login</h1>
@@ -57,7 +56,6 @@ export const Login = () => {
           </div>
         </div>
       </div>
-     
     </>
   );
 };

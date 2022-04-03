@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useUserAuth } from "../../../context/UserAuthContext";
 
-import "./SignUp.css";
+import "./Signup.css";
 
 export const Signup = () => {
   const [email, setEmail] = useState("");
@@ -24,7 +24,7 @@ export const Signup = () => {
     e.preventDefault();
     try {
       await googleSignIn();
-      navigate("/home");
+      navigate("/");
     } catch (error) {
       console.log(error.message);
     }
