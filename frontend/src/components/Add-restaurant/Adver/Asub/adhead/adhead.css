@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.adhed{
+    height:715px;
+    background: url("../../../images/adheadbg.jpeg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background: cover;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.adhed-wrapper{
+
+    /* background-color: blue; */
+    width: 950px;
+    padding: 8px;
+
+}
+
+.adlogo{
+    
+    /* background-color: red; */
+    width:125px;
+    margin: 5px;
+    
+}
+
+.adlogo:hover{
+    cursor: pointer;
+}
+
+.adhed-wrapper-t {
+
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.adpu{
+    /* background-color: red; */
+    display: flex;
+    margin:5px;
+    font-size:20px;
+    color: white;
+}
+
+.adpu-i{
+    margin:8px 12px;
+}
+
+
+.adphed-wrapper-b
+{
+    /* background-color: red; */
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.adpb-i{
+
+    color: white;
+    /* background-color: gray; */
+    margin: 5px;
+}
+
+.adpb-i>h2{
+
+    font-size: 35px;
+    font-weight: 400;
+}
+.adpb-i>p{
+    padding-top:5px;
+    font-size: 20px;
+    padding-bottom: 10px;
+   
+    width: 350px;
+}
+
+.adpb-i-btnwrp{
+
+    
+    padding-top:8px;
+    margin-left: -5px;
+
+}
+
+.adpredy{
+
+    padding: 12px 35px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f16f7c;
+    color: white;
+
+}
+
+.adpredy:hover{
+    background-color: #E03546;
+}
+
+

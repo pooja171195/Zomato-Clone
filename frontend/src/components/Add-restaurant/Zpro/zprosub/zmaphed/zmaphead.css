@@ -1,0 +1,16 @@
+.zmphed{
+    /* background-color: red; */
+    padding: 20px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.zmphed>h1{
+
+    /* background-color: yellow; */
+    width: 500px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}

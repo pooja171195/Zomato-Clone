@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.zphed{
+    height:715px;
+    background: url("../../../images/Zprobg.jpeg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background: cover;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.zphed-wrapper{
+
+    /* background-color: blue; */
+    width: 950px;
+    padding: 8px;
+
+}
+
+.zplogo{
+    
+    /* background-color: red; */
+    width:125px;
+    margin: 5px;
+    
+}
+
+.zplogo:hover{
+    cursor: pointer;
+}
+
+.zphed-wrapper-t {
+
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.zpu{
+    /* background-color: red; */
+    display: flex;
+    margin:5px;
+    font-size:20px;
+    color: white;
+}
+
+.zpu-i{
+    margin:8px 12px;
+}
+
+
+.zphed-wrapper-b
+{
+    /* background-color: red; */
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.zpb-i{
+
+    color: white;
+    /* background-color: gray; */
+    margin: 5px;
+}
+
+.zpb-i>h2{
+
+    font-size: 35px;
+    font-weight: 400;
+}
+.zpb-i>p{
+    padding-top:5px;
+    font-size: 20px;
+    padding-bottom: 10px;
+   
+    width: 280px;
+}
+
+.zpb-i-btnwrp{
+
+    
+    padding-top:8px;
+    margin-left: -5px;
+
+}
+
+.zpredy{
+
+    padding: 12px 35px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f16f7c;
+    color: white;
+
+}
+
+.zpredy:hover{
+    background-color: #E03546;
+}
+
+

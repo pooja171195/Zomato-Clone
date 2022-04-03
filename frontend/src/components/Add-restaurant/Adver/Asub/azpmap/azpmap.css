@@ -1,0 +1,80 @@
+.zpm{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.azpmap{
+    height: 500px;
+    /* background-color: gray; */
+    width: 950px;
+    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../../images/promap1.svg"); */
+    background-image:url("../../../images/admap1.svg"); ;
+    
+    background-repeat:no-repeat;
+    
+    
+}
+
+.azmapt{
+    height: 100%;
+    width: 100%;
+
+    margin-top: -143px;
+
+    background-image: url("../../../images/admap2.svg");
+    opacity: 0;
+    /* background-color: blue; */
+}
+
+.azmapt:hover{
+
+    opacity: 1;
+}
+
+
+.amapnat{
+
+    /* background-color: yellow; */
+    width: 200PX;
+    margin-top: 100px;
+    margin-left: 160px;
+
+
+}
+
+.amapnat>p{
+    font-weight: 700;
+    
+}
+
+.amapusr{
+
+    /* background-color: yellow; */
+    width: 200px;
+
+    margin-top: 100px;
+    margin-left: 350px;
+
+}
+
+.amapusr>p{
+    font-weight: 700;
+    
+}
+
+.amapres{
+    /* background-color: yellow; */
+    width: 200px;
+
+    margin-left: 650px;
+    margin-top: -250px;
+}
+
+.amapres>p{
+    font-weight: 700;
+   
+}

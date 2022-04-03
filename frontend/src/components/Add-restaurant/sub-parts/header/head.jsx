@@ -20,8 +20,8 @@ export const Head = () =>{
 
                         <div className="pu">
 
-                            <div className="pu-i">Products</div>
-                            <div className="pu-i">User</div>
+                            <div className="pu-i">Pro</div>
+                            <div className="pu-i">Advertise</div>
 
                         </div>
 
