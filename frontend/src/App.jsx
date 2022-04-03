@@ -9,7 +9,7 @@ import OrderOnline from "./components/ProductDetailsPage/OrderOnline";
 import Reviews from "./components/ProductDetailsPage/Reviews";
 import Photos from "./components/ProductDetailsPage/Photos";
 import Menu from "./components/ProductDetailsPage/Menu";
-import Home from "./components/Home/Home";
+//import Home from "./components/Home/Home";
 
 import { PhoneSignup } from "./components/common/login/Phonesignup";
 
