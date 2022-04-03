@@ -90,6 +90,8 @@
 
 .fotul {
   list-style-type: none;
+  /* background-color: aqua; */
+  height: 100%;
 }
 
 .zfotm5 > ul > li > h4 {
@@ -105,7 +107,7 @@
 }
 
 .fotul > li {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 
   font-size: 15px;
 }
@@ -197,6 +199,7 @@
 .Astore {
   /* background-color: red; */
   width: 150px;
+  padding: 10px;
 }
 
 .gstore,
