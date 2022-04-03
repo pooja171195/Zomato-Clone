@@ -47,7 +47,7 @@
 .gwr-b-l-txt{
 
     margin-top: 30px;
-    /* background-color: aliceblue; */
+    
 }
 
 .gwr-b-l-txt:hover{
@@ -100,6 +100,8 @@
 .gblt-o>p{
     font-size: 18px;
     color: #4e4e4e;
+    /* background-color: red; */
+    margin-top: 15px;
 }
 
 .gwr-b-r{

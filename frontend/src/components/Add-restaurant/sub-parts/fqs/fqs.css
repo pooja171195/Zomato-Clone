@@ -1,16 +1,20 @@
 .fqs{
     /* background-color: red; */
     
+    margin-top: 100px;
 
     height: 600px;
     display: flex;
     justify-content: center;
+
+    margin-bottom: 100px;
 
 
 }
 
 .fqs-w{
     /* background-color: gray; */
+    height: 100%;
     width: 950px;
     display: flex;
     flex-direction: column;
