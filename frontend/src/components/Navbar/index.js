@@ -9,7 +9,7 @@ const Navbar = () => {
       <Nav >
         <Bars>Get the App Add restaurants Log in Sign up</Bars>
         <NavMenu>
-          <NavLink to="/GetApp" activeStyle>
+          <NavLink to="/mobilepage" activeStyle>
             Get the App
           </NavLink>
           <NavMenu1>
