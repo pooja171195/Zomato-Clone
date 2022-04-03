@@ -4,6 +4,7 @@ import "./landing.css";
 import MobilePage from "../../components/MobilePage/MobilePage";
 import { Zfooter } from "../../components/zfooter/zfooter";
 import { useNavigate } from "react-router-dom";
+import { Exploth } from "../../components/homep-comp/exploth";
 
 
 export const Landing = () => {
@@ -180,6 +181,9 @@ const navigate = useNavigate()
           <MobilePage/>
        
         
+        </div>
+        <div className="KM">
+<Exploth/>
         </div>
         <div className="Ku">
 <Zfooter/>

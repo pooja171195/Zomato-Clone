@@ -30,6 +30,40 @@ export const Exploth = () =>{
                         <p>Pizza Hut</p>
                     </div>
                 </div>
+                <div className="exp-ains1">
+                    <h3>Cities We Deliver To</h3>
+                    <div className="expt1">
+                        <div>Delhi NCR</div>
+                        <div>Kolkata</div>
+                        <div>Mumbai</div>
+                        <div>Bengaluru</div>
+                        <div>Pune</div>
+                        <div>Hyderabad</div>
+                        <div>Chennai</div>
+                        <div>Lucknow</div>
+                        <div>Kochi</div>
+                        <div>Jaipur</div>
+                        <div>Ahmedabad</div>
+                        <div>Chandigarh</div>
+                        <div>Goa</div>
+                        <div>Indore</div>
+                        <div>Nashik</div>
+                        <div>Kanpur</div>
+                        <div>Allahabad</div>
+                        <div>Manali</div>
+                        <div>Dharamshala</div>
+                        <div>Raipur</div>
+                        <div>Jammu</div>
+                        <div>Jodhpur</div>
+                        <div>Madurai</div>
+                        <div>Cuttack</div>
+                        <div>Khajuraho</div>
+                        <div>Leh</div>
+                        <div>Alappuzha</div>
+                        <div>Vadodara</div>
+                        <div >See More</div>
+                    </div>
+                </div>
             </div>
         </div>
 
