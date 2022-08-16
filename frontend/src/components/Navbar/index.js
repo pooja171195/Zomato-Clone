@@ -2,6 +2,7 @@ import React from "react";
 import Search from "../search/search";
 // import Header from "../header/header";
 import { Nav, NavLink, Bars, NavMenu, NavMenu1, Zomato, Sp,S } from "./Navbar";
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -16,9 +17,9 @@ const Navbar = () => {
             <NavLink to="/addrestaurant" activeStyle>
               Add restaurants
             </NavLink>
-            <NavLink to="/login" activeStyle>
+            <Link to="/login" activeStyle>
               Log in
-            </NavLink>
+            </Link>
             <NavLink to="/signup" activeStyle>
               Sign up
             </NavLink>
